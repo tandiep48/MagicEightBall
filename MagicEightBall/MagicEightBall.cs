@@ -4,10 +4,10 @@ using System.Windows.Forms;
 
 namespace MagicEightBall
 {
-    public partial class Form1 : Form
+    public partial class MagicEightBall : Form
     {
         private readonly Random rndChoice = new Random();
-        public Form1()
+        public MagicEightBall()
         {
             InitializeComponent();
         }
